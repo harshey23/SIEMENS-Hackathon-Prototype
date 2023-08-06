@@ -4,10 +4,14 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 180px;
     display: flex;
     align-items: center;
-    background-color: #1976d2;
+    background-color: #009899;
     color: white;
-    font-weight: 600;
+    font-weight: 300;
+  }
+  .mat-headline-5 {
+    font-weight: 300;
+    margin: 20px auto 80px;
   }
