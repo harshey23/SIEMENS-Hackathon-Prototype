@@ -1,0 +1,32 @@
+h2 {
+    font-size: 50px;
+    color: white;
+}
+h4 {
+    font-size: 20px;
+    color: white;
+}
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% + 180px );
+    background-color: #009899;
+}
+.outer-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px;
+}
+img {
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+
+    mix-blend-mode: revert;
+    margin: 30px;
+}

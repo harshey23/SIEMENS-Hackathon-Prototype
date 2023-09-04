@@ -1,0 +1,30 @@
+mat-card {
+    width: 80%;
+    height: 400px;
+    max-width: 900px;
+   margin: -45px auto;
+    padding: 20px;
+    gap: 16px
+}
+mat-form-field{
+    width: 80%;
+}
+.mat-body {
+    font-size: large;
+    margin-top: 32px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 70px;
+    width: calc(100% - 40px);
+
+}
+
+.footer-submit {
+    position: absolute;
+    bottom: 20px;
+}
+button {
+    background-color: #009899 !important;
+}

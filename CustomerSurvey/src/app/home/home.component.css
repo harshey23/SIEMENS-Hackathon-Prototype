@@ -1,0 +1,42 @@
+.example-card {
+    height: 150px;
+    width: 350px;
+    margin: 1rem;
+    background-color: rgba(211,211,211,0.3);
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+:host {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+mat-icon {
+    height: 32px;
+    width: 32px;
+    font-size: 32px;
+}
+p {
+    font-weight: 200;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+
+
+.example-card :hover {
+    /* background-color: red; */
+    cursor: pointer;
+
+}
+
+button {
+    background-color: #009899 !important;
+}

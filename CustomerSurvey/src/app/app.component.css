@@ -1,17 +1,29 @@
 
 .toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  
     height: 180px;
     display: flex;
     align-items: center;
     background-color: #009899;
     color: white;
-    font-weight: 300;
+    font-weight: bold;
   }
   .mat-headline-5 {
-    font-weight: 300;
-    margin: 20px auto 80px;
+    font-weight: 400;
+    margin: auto;
+    font-size: 32px;
+  }
+
+  .page-content{
+    height: calc( 100% - 180px);
+    width: 100%;
+   
+  }
+
+  .footer {
+    height: 65px;
+    position: sticky;
+    width: 100%;
+    bottom: 0px;
+    background-color: lightcyan;
   }
